@@ -1,5 +1,3 @@
-# AI Generalist Assignment Submission
-
 ## Project Title
 Applied AI Builder: DDR (Detailed Diagnostic Report) Generation from Inspection + Thermal Documents
 
