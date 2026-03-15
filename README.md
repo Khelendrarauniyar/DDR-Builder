@@ -9,7 +9,7 @@ Build a reliable AI workflow that reads two technical inputs:
 
 And generates a client-ready DDR that is structured, traceable, and robust to missing or conflicting information.
 
-## Assignment Requirement Coverage
+## Implementation Coverage
 This implementation addresses each required output section:
 
 1. Property Issue Summary
@@ -81,9 +81,15 @@ To reduce hallucinations and improve trustworthiness, the workflow includes:
 8. prompts: LLM prompt templates
 
 ## Setup and Run
+
+### Create Virtual Environment
+```powershell
+& python -m venv venv
+```
+
 ### 1) Install dependencies
 ```powershell
-& "e:/Ai-Generalist Assignment/.venv/Scripts/python.exe" -m pip install -r requirements.txt
+& ".venv/Scripts/python.exe" -m pip install -r requirements.txt
 ```
 
 ### 2) Configure environment (optional Groq)
@@ -116,30 +122,6 @@ Run:
 ```powershell
 & ".venv/Scripts/python.exe" -m pytest -q
 ```
-
-## Submission Notes
-This repository includes:
-
-1. End-to-end runnable codebase
-2. Interactive UI for demonstration
-3. Structured output artifacts
-4. Clear pipeline logs and deterministic fallback behavior when Groq API is unavailable
-
-## Final Submission Checklist
-Before submitting to the evaluator, prepare these external items:
-
-1. GitHub repository link
-2. Loom video link (3-5 minutes):
-	- What you built
-	- How it works
-	- Limitations
-	- Improvements planned
-3. Optional live/demo link (if hosted)
-4. One Google Drive folder named with your full name containing:
-	- README and project source
-	- Key output artifacts/screenshots
-	- Any supplementary notes
-5. Share only one Google Drive folder link
 
 ## Limitations
 1. OCR fallback for scanned image-only PDFs is not yet implemented.
