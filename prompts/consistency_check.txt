@@ -1,0 +1,14 @@
+Validate DDR faithfulness against evidence.
+Return JSON with:
+- status: pass|fail
+- unsupported_sentences: []
+- hidden_conflicts: []
+- missing_required_fields: []
+- image_policy_violations: []
+- notes: []
+
+Rules:
+- Flag unsupported facts.
+- Flag hidden conflicts.
+- Flag missing required fields.
+- Flag missing image placeholder usage.

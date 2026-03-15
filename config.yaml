@@ -1,0 +1,9 @@
+llm_enabled: true
+llm_provider: groq
+llm_model: llama-3.3-70b-versatile
+groq_base_url: https://api.groq.com/openai/v1
+llm_timeout_seconds: 60
+similarity_threshold: 0.84
+high_temp_threshold_c: 45.0
+medium_temp_threshold_c: 35.0
+output_format: markdown

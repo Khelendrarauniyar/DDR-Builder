@@ -1,0 +1,7 @@
+Rewrite DDR content in simple client-friendly language.
+Keep all facts unchanged.
+Do not add new facts.
+Keep placeholders exactly as:
+- Not Available
+- Image Not Available
+Keep section keys unchanged and return JSON only.

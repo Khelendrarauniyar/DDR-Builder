@@ -1,0 +1,95 @@
+{
+  "ddr": {
+    "property_issue_summary": "Detected issues by frequency: moisture: 2; thermal hotspot: 1",
+    "area_wise_observations": [
+      {
+        "area": "general",
+        "observation": "- Visible leak marks near sink line.",
+        "thermal_data": "Not Available",
+        "images": [
+          "Image Not Available"
+        ]
+      },
+      {
+        "area": "kitchen",
+        "observation": "- Inspection findings: Moisture and damp patch in kitchen wall. - Thermal scan shows hotspot in kitchen electrical panel at 48\u00b0C.",
+        "thermal_data": "48.0\u00b0C",
+        "images": [
+          "Image Not Available"
+        ]
+      }
+    ],
+    "probable_root_cause": "Possible overloaded electrical component or poor ventilation; Possible waterproofing failure or persistent plumbing leak",
+    "severity_assessment": "Overall severity is Critical, based on issue patterns and thermal/safety indicators.",
+    "recommended_actions": "- Inspect waterproofing and plumbing in the area, then dry and repair affected surfaces. - Perform electrical and thermal safety inspection; reduce load and improve ventilation.",
+    "additional_notes": "No direct conflicts detected between the two source documents.",
+    "missing_or_unclear_information": "Image Not Available Not Available thermal readings for: general, kitchen"
+  },
+  "claims": [
+    {
+      "claim_id": "C0001",
+      "area": "kitchen",
+      "issue": "moisture",
+      "observation_text": "Inspection findings: Moisture and damp patch in kitchen wall.",
+      "thermal_reading": null,
+      "probable_root_cause": "Possible waterproofing failure or persistent plumbing leak",
+      "severity_label": "Medium",
+      "recommendation": "Inspect waterproofing and plumbing in the area, then dry and repair affected surfaces.",
+      "evidence_spans": [
+        {
+          "doc_id": "inspection",
+          "page": 1,
+          "char_start": 0,
+          "char_end": 61,
+          "text": "Inspection findings: Moisture and damp patch in kitchen wall."
+        }
+      ],
+      "image_refs": [],
+      "confidence": 0.65
+    },
+    {
+      "claim_id": "C0003",
+      "area": "kitchen",
+      "issue": "thermal hotspot",
+      "observation_text": "Thermal scan shows hotspot in kitchen electrical panel at 48\u00b0C.",
+      "thermal_reading": "48.0\u00b0C",
+      "probable_root_cause": "Possible overloaded electrical component or poor ventilation",
+      "severity_label": "Critical",
+      "recommendation": "Perform electrical and thermal safety inspection; reduce load and improve ventilation.",
+      "evidence_spans": [
+        {
+          "doc_id": "thermal",
+          "page": 1,
+          "char_start": 0,
+          "char_end": 63,
+          "text": "Thermal scan shows hotspot in kitchen electrical panel at 48\u00b0C."
+        }
+      ],
+      "image_refs": [],
+      "confidence": 0.65
+    },
+    {
+      "claim_id": "C0002",
+      "area": "general",
+      "issue": "moisture",
+      "observation_text": "Visible leak marks near sink line.",
+      "thermal_reading": null,
+      "probable_root_cause": "Possible waterproofing failure or persistent plumbing leak",
+      "severity_label": "Medium",
+      "recommendation": "Inspect waterproofing and plumbing in the area, then dry and repair affected surfaces.",
+      "evidence_spans": [
+        {
+          "doc_id": "inspection",
+          "page": 1,
+          "char_start": 62,
+          "char_end": 96,
+          "text": "Visible leak marks near sink line."
+        }
+      ],
+      "image_refs": [],
+      "confidence": 0.65
+    }
+  ],
+  "conflicts": [],
+  "images": []
+}
